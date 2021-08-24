@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+}
+
+.loading-container{
+	margin: 0;
+	padding: 0;
+    z-index: 999;
+	position: fixed;
+	background: url(img/background.png) no-repeat center;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+.loading-img__container{
+	display: flex;
+}
+
+.loading-img{
+	height: 10%; 
+	width: 10%;
+	margin: 0 auto;
+	margin-top: 15%;
+}
+
+.loading-text{
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	font-family: sans-serif;
+	width: 10%;
+	height: 10%;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
